@@ -1,5 +1,11 @@
+
 .App {
   text-align: center;
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
+
+
 }
 
 .App-logo {
@@ -35,4 +41,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.iconButton:hover{
+  background-color: #c0c1c2 !important;
+  box-shadow: 0px 7px 7px rgb(0, 0, 0,0.4);
+}
+.iconButton{
+  transition: all 0.2s !important ;
+}
+.todocard{
+  transition: all 0.2s !important ;
+
+}
+.todocard:hover{
+  padding: 10px;
+    box-shadow: 0px 7px 7px rgb(0, 0, 0,0.4);
+
 }
